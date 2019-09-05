@@ -7,7 +7,7 @@ You'll need a few things to get going:
 2. A recent version of [Sound eXchange (SoX)](http://sox.sourceforge.net/) installed locally and added to your PATH as an environment variable
 3. And, of course, the original sample packs themselves. 
 
-Please copy the original LHA files to a folder not containing any other files or folders. You can then extract the original LHA packs to individual subdirectories inside the master folder.
+Please copy the original LHA files to a folder not containing any other files or folders. You can then extract the original LHA packs to individual subdirectories inside the parent folder.
 
 The Internet Archive appears to have several versions of the full collection - some converted incorrectly and [one in the correct original format](https://archive.org/details/AmigaSTXX). The latter version, once extracted, should match the folder structure required by the batch script.
 
