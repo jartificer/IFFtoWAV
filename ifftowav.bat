@@ -7,7 +7,7 @@ if %ERRORLEVEL% NEQ 0 (
 	exit
 )
 if "%~1"=="" (
-	echo Please run this script from the command prompt, specifying the path for ST-XX as an argument. && echo Usage: iffconvert stxxpath
+	echo Please run this script from the command prompt, specifying the path for ST-XX as an argument. && echo Usage: ifftowav [stxxpath]
 	pause
 	exit
 ) else (goto PROMPT) 
