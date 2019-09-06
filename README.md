@@ -1,6 +1,6 @@
 # IFFtoWAV
 
-IFFtoWAV is a quick and dirty solution for converting the Amiga Soundtracker soundpack collection (ST-XX) into a collection of WAV files that can then be used in modern DAWs or other sound editing applications.
+IFFtoWAV is a quick and dirty solution for converting the Amiga Soundtracker soundpack collection (ST-XX) into WAV files that can then be used in modern DAWs or other sound editing applications.
 
 You'll need a few things to get going: 
 1. A Windows machine,
