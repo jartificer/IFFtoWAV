@@ -24,9 +24,9 @@ ST-XX
   |______...
 ```
 
-Pass the parent folder path (ST-XX in the above example) as an argument to the batch file, and the program will replace the original IFF files with WAV files (also, please be careful to enter the correct folder, as THE ORIGINAL FILES INSIDE IT WILL BE DELETED). 
+Pass the parent folder path (ST-XX in the above example) as an argument to the batch file, and the program will write a WAV version of every sample to a separate output folder that mirrors the source folder structure. The original files are only read - they are never renamed, modified or deleted. By default the output goes to a folder next to the source folder with a `-WAV` suffix (e.g. `ST-XX-WAV`); you can choose a different location with the optional second argument. 
 The script is fairly quick, and it can go through the full collection in a matter of minutes. Also, it differentiates between 8svx and raw files so all the output audio files should be correctly converted and pitched as long as they match any of the two formats used in the ST-XX collection.
 
 ```
-Usage: ifftowav [stxxpath]
+Usage: ifftowav [stxxpath] [outputpath]
 ```
